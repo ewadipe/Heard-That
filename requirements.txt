@@ -1,0 +1,1 @@
+#These are the packagaes my app needs: streamlit, requests, and python-dotenv

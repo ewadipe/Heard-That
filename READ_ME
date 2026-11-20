@@ -1,0 +1,25 @@
+# Overview:
+# This is a Streamlit app that uses the ElevenLabs API to generate audio from text. The app allows users to input text and select a voice, and then generates an audio file that can be played back in the browser.
+
+#Features:
+# User-rumor input: Users can input a rumor or text that they want to convert to audio.
+# Voice selection: Users can select from a list of available voices provided by the ElevenLabs API
+# Generated commentry: The app generates commentary based on the user's input and the selected voice.
+# outcome prediction: The app predicts the outcome of the rumor based on the user's input and the selected voice.
+
+#Technologies Used:
+# Streamlit: A Python library for building interactive web applications.
+# ElevenLabs API: A service for generating audio from text.
+# EvelynLabs API Key: An API key is required to access the ElevenLabs API. The key should be stored in a .env file for security purposes.
+# Python-dotenv: A Python library for loading environment variables from a .env file.
+
+#How it works:
+# The user submits a sports rumor
+# The application retrieves active prediction markets with an algorithm
+# the application calculates outcomes
+# commentry is then assigned
+
+#Futrue Development:
+# improved rumor mathing
+# Exampnded sports coverage
+# Additiuonal prediction-market intergration
